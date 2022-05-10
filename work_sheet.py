@@ -1,7 +1,6 @@
 import gspread
 import pandas as pd
 
-
 gc = gspread.service_account(filename='secret_key.json')
 
 
